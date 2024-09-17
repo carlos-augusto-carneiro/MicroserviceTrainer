@@ -14,7 +14,7 @@ public class CompraService {
     public void realizaCompra(CompraDTO compraDTO){
 
         RestTemplate clienteRest = new RestTemplate();   
-        ResponseEntity<InfoFornecedorDTO> exchange = clienteRest.exchange("http://localhost:8081/info/"+compraDTO.getEndereco().getEstado(),
+        ResponseEntity<InfoFornecedorDTO> exchange = clienteRest.exchange("http://fornecedor/info/"+compraDTO.getEndereco().getEstado(),
                             HttpMethod.GET, null, InfoFornecedorDTO.class);
 
         InfoFornecedorDTO infoFornecedor = exchange.getBody();
