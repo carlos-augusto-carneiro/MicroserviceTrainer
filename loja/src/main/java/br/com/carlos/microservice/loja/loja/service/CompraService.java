@@ -1,12 +1,12 @@
-package br.com.carlos.microservice.loja.service;
+package br.com.carlos.microservice.loja.loja.service;
 
 import org.springframework.http.HttpMethod;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
-import br.com.carlos.microservice.loja.dto.CompraDTO;
-import br.com.carlos.microservice.loja.dto.InfoFornecedorDTO;
+import br.com.carlos.microservice.loja.loja.dto.CompraDTO;
+import br.com.carlos.microservice.loja.loja.dto.InfoFornecedorDTO;
 
 @Service
 public class CompraService {
