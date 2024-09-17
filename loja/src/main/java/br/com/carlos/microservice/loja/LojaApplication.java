@@ -1,4 +1,4 @@
-package br.com.carlos.microservice.loja.loja;
+package br.com.carlos.microservice.loja;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
