@@ -17,6 +17,11 @@ public class CompraService {
         ResponseEntity<InfoFornecedorDTO> exchange = clienteRest.exchange("http://localhost:8081/info/"+compraDTO.getEndereco().getEstado(),
                             HttpMethod.GET, null, InfoFornecedorDTO.class);
 
-        System.out.println(exchange.getBody().getEndereco());
+        InfoFornecedorDTO infoFornecedor = exchange.getBody();
+        if (infoFornecedor != null) {
+            System.out.println(infoFornecedor.getEndereco());
+        } else {
+            System.out.println("Informações do fornecedor não disponíveis");
+        }
     }
 }
