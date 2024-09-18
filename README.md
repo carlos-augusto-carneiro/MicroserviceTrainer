@@ -21,7 +21,7 @@ Este projeto implementa uma arquitetura de microserviços para um sistema de e-c
 - [ ] Segurança (autenticação e autorização)
 - [ ] Logging e monitoramento
 - [ ] Circuit Breaker para lidar com falhas de serviço
-- [ ]Implementação de filas para processamento assíncrono
+- [ ] Implementação de filas para processamento assíncrono
 - [ ] Documentação da API (com Swagger)
 - [ ] Containerização dos serviços (com Docker)
 - [ ] Configuração de ambiente de produção
@@ -37,13 +37,13 @@ Este projeto implementa uma arquitetura de microserviços para um sistema de e-c
 O projeto é composto por quatro microserviços principais:
 
 ### Eureka Server: 
-Serviço de descoberta responsável por registrar e localizar outros microserviços.
+- Serviço de descoberta responsável por registrar e localizar outros microserviços.
 ### Config Server: 
-Servidor de configuração centralizada para gerenciar as configurações dos microserviços.
+- Servidor de configuração centralizada para gerenciar as configurações dos microserviços.
 ### Loja: 
-Serviço responsável por processar as compras dos clientes.
+- Serviço responsável por processar as compras dos clientes.
 ### Fornecedor: 
-Serviço que gerencia as informações dos fornecedores.
+- Serviço que gerencia as informações dos fornecedores.
 
 ## Tecnologias Utilizadas
 - Java 17
