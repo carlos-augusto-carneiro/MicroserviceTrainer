@@ -7,6 +7,8 @@ Este projeto implementa uma arquitetura de microserviços para um sistema de e-c
 
 <img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="Logo spring boot" width="75" height="90">
 
+<img src="https://imgs.search.brave.com/gPgWl35AC6IsxLA8mGttOZExyxv_Qgd_ttjr7YULhRs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy90/aHVtYi8wLzBhL015/U1FMX3RleHRsb2dv/LnN2Zy8yMjBweC1N/eVNRTF90ZXh0bG9n/by5zdmcucG5n" alt="Logo Mysql" width="75" height="90">
+
 
 
 ## Funcionalidades Implementadas
