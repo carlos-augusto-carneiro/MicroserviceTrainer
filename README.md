@@ -1,38 +1,37 @@
 Projeto de Microserviços de E-commerce
 Este projeto implementa uma arquitetura de microserviços para um sistema de e-commerce, utilizando Spring Boot e Spring Cloud. Ele foi desenvolvido para demonstrar a divisão de funcionalidades e a comunicação entre diferentes serviços de forma desacoplada e escalável.
 
-Funcionalidades Implementadas:
-[x] Configuração do Eureka Server
-[x] Configuração do Config Server
-[x] Serviço de Loja básico
-[x] Serviço de Fornecedor básico
-[x] Registro dos serviços no Eureka
-[x] Comunicação entre Loja e Fornecedor via Eureka
-[x] Configuração do LoadBalancer para o RestTemplate
-[x] Modelo básico de Info para o Fornecedor
-[x] Endpoint para buscar informações do Fornecedor por estado
-[x] DTO para Compra, ItemDaCompra e Endereço na Loja
-[x] Serviço básico de Compra na Loja
-Funcionalidades Faltantes ou a Serem Melhoradas:
-[ ] Implementação completa do fluxo de compra
-[ ] Persistência de dados para a Loja
-[ ] Tratamento de erros e exceções
-[ ] Implementação de testes unitários e de integração
-[ ] Segurança (autenticação e autorização)
-[ ] Logging e monitoramento
-[ ] Circuit Breaker para lidar com falhas de serviço
-[ ] Implementação de filas para processamento assíncrono
-[ ] Documentação da API (com Swagger)
-[ ] Containerização dos serviços (com Docker)
-[ ] Configuração de ambiente de produção
-[ ] Implementação de cache para melhorar o desempenho
-[ ] Versionamento da API
-[ ] Implementação de métricas e health checks
-[ ] Configuração de CI/CD
-[ ] Implementação de transações distribuídas (se necessário)
-[ ] Criptografia de dados sensíveis
-[ ] Implementação de mais funcionalidades específicas do negócio (gerenciamento de estoque, pagamentos)
-
+Funcionalidades Implementadas
+ Configuração do Eureka Server
+ Configuração do Config Server
+ Serviço de Loja básico
+ Serviço de Fornecedor básico
+ Registro dos serviços no Eureka
+ Comunicação entre Loja e Fornecedor via Eureka
+ Configuração do LoadBalancer para o RestTemplate
+ Modelo básico de Info para o Fornecedor
+ Endpoint para buscar informações do Fornecedor por estado
+ DTO para Compra, ItemDaCompra e Endereço na Loja
+ Serviço básico de Compra na Loja
+Funcionalidades Faltantes ou a Serem Melhoradas
+ Implementação completa do fluxo de compra
+ Persistência de dados para a Loja
+ Tratamento de erros e exceções
+ Implementação de testes unitários e de integração
+ Segurança (autenticação e autorização)
+ Logging e monitoramento
+ Circuit Breaker para lidar com falhas de serviço
+ Implementação de filas para processamento assíncrono
+ Documentação da API (com Swagger)
+ Containerização dos serviços (com Docker)
+ Configuração de ambiente de produção
+ Implementação de cache para melhorar o desempenho
+ Versionamento da API
+ Implementação de métricas e health checks
+ Configuração de CI/CD
+ Implementação de transações distribuídas (se necessário)
+ Criptografia de dados sensíveis
+ Implementação de mais funcionalidades específicas do negócio (gerenciamento de estoque, pagamentos)
 Componentes
 O projeto é composto por quatro microserviços principais:
 
