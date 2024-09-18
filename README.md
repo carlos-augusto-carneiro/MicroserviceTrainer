@@ -1,6 +1,11 @@
 # Projeto de Microserviços de E-commerce
 Este projeto implementa uma arquitetura de microserviços para um sistema de e-commerce, utilizando Spring Boot e Spring Cloud. Ele foi desenvolvido para demonstrar a divisão de funcionalidades e a comunicação entre diferentes serviços de forma desacoplada e escalável.
-<img src="https://imgs.search.brave.com/S1spvSVMR_S6rUYjv_0Az1hhx36iu7K-5JyE3OwTMz0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvcHQvdGh1bWIv/My8zMC9KYXZhX3By/b2dyYW1taW5nX2xh/bmd1YWdlX2xvZ28u/c3ZnLzY0MHB4LUph/dmFfcHJvZ3JhbW1p/bmdfbGFuZ3VhZ2Vf/bG9nby5zdmcucG5n" alt="Descrição da Imagem" width="75" height="90">
+
+
+<img src="https://imgs.search.brave.com/S1spvSVMR_S6rUYjv_0Az1hhx36iu7K-5JyE3OwTMz0/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvcHQvdGh1bWIv/My8zMC9KYXZhX3By/b2dyYW1taW5nX2xh/bmd1YWdlX2xvZ28u/c3ZnLzY0MHB4LUph/dmFfcHJvZ3JhbW1p/bmdfbGFuZ3VhZ2Vf/bG9nby5zdmcucG5n" alt="Descrição java" width="75" height="90">
+
+
+<img src="https://img.icons8.com/?size=100&id=90519&format=png&color=000000" alt="Logo spring boot" width="75" height="90">
 
 
 
